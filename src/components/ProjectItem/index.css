@@ -1,0 +1,10 @@
+.project-item {
+  width: 22%;
+  margin: 4px;
+  height: 40vh;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-bottom: 28px;
+  margin-right: 12px;
+}

@@ -1,0 +1,70 @@
+.content-container {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.select {
+  align-self: flex-start;
+  margin-top: 26px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  height: 40px;
+  border-radius: 6px;
+  padding-left: 12px;
+  cursor: pointer;
+  outline: none;
+}
+.loader {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 300px;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: #475569;
+  font-family: 'Roboto';
+}
+.failure-heading {
+  margin-bottom: 0px;
+}
+.failure-image {
+  width: 40%;
+}
+.retry-button {
+  background-color: #328af2;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border: none;
+  width: 60px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+.project-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  flex-wrap: wrap;
+}
+.project-image {
+  width: 100%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.project-name {
+  font-family: 'Roboto';
+  font-size: 22px;
+  margin-left: 12px;
+  font-weight: 500;
+}
